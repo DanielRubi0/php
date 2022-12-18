@@ -8,7 +8,7 @@ $users = [];
 do {
     $users[] = newUser();
     do{
-        $resp = readline("Do you want to add othe user? Si/No");
+        $resp = readline("Do you want to add another user? Yes/No");
     }while(!isValidResponse($resp));
     // verificar la respuesta
 
